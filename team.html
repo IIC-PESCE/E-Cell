@@ -1,318 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Our-Team</title>
-    <style>
+    <title>Team</title>
+    <link rel="icon" type="image/x-icon" href="image/ecell favicon.png">
+    <link rel="stylesheet" href="link.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.container {
-    text-align: center;
-    background: #f5f5f5;
-}
-
-.header {
-    padding-top: 30px;
-    color: #444;
-    font-size: 20px;
-    margin: auto;
-    line-height: 50px;
-}
-
-.sub-container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 30px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.teams {
-    margin: 10px;
-    padding: 22px;
-    max-width: 50%;
-    cursor: pointer;
-    transition: 0.4s;
-    box-sizing: border-box;
-    border: solid 2px rgb(63, 61, 61);
-    border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.teams:hover {
-    background: #ddd;
-    border-radius: 12px;
-}
-
-.teams img {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-}
-
-.name {
-    padding: 12px;
-    font-weight: bold;
-    font-size: 16px;
-    text-transform: uppercase;
-}
-
-.desig {
-    font-style: italic;
-    color: #888;
-}
-
-.about {
-    margin: 20px 0;
-    font-weight: lighter;
-    color: #4e4e4e;
-}
-.about1 {
-    margin: 20px 0;
-    font-weight: lighter;
-    font-size: 12px;
-    color: #4e4e4e;
-}
-.social-links {
-    margin: 14px;
-}
-
-.social-links a {
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    transition: .4s;
-}
-
-.social-links a:hover {
-    transform: scale(1.5);
-}
-
-.social-links a i {
-    color: #444;
-}
-
-@media screen and (max-width: 768px) {
-    .teams {
-        max-width: 100%;
-    }
-}
-
-
-
-    </style>
 </head>
-
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Our Team</h1>
-        </div>
-        <div class="sub-container">
-            <div class="teams">
-                <img src="images/manu.jpeg" alt="">
-                <div class="name">Manojgowda K S</div>
-                <div class="desig">Web and Technical Head</div>
-                <div class="about1">manumanjgowda570@gmail.com</div>
-
-                <div class="social-links">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
+    <div class="team" id="team">
+        <section style="text-align: center">
+          <div class="head-norm">
+            <h1>Team</h1>
+          </div>
+        </section>
+        <section class="team-grid" style="text-align: center">
+          <div
+            style="
+              background-position: center;
+              background-image: url('image/principal.png');
+            "
+            class="team-div"
+          >
+            <div class="desc">
+              <h1>Dr.R M Mahalinge gowda</h1>
+              <h4>Principal,Chairperson</h4>
             </div>
+          </div>
 
-            <div class="teams">
-                <img src="images/rakshitha.jpeg" alt="">
-                <div class="name">Rakshitha MN</div>
-                <div class="desig">Designer</div>
-                <div class="about">manugowda@gmail.com</div>
-
-                <div class="social-links">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
+          <div
+            style="
+              background-position: center;
+              background-image: url('image/president.jpeg');
+            "
+            class="team-div"
+          >
+            <div class="desc">
+              <h1>Dr.Vinay S</h1>
+              <h4>President</h4>
             </div>
-
-            <div class="teams">
-                <img src="images/ecell.png" alt="">
-                <div class="name">Sanjay Mullen </div>
-                <div class="desig">Student Co-Ordinator</div>
-                <div class="about"> manugowda@gmail.com </div>
-
-                <div class="social-links">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
+          </div>
+          <div
+            style="
+              background-position: center;
+              background-image: url('image/vp.jpeg');
+            "
+            class="team-div"
+          >
+            <div class="desc">
+              <h1>Mr.Pavan K N</h1>
+              <h4>Vice-President</h4>
             </div>
-
-            <div class="teams">
-                <img src="images/ecell.png" alt="">
-                <div class="name">Sanjay Mullen </div>
-                <div class="desig">Student Co-Ordinator</div>
-                <div class="about"> manugowda@gmail.com </div>
-
-                <div class="social-links">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
+          </div>
+          <div
+            style="
+              background-position: center;
+              background-image: url('image/conve.jpeg');
+            "
+            class="team-div"
+          >
+            <div class="desc">
+              <h1>Mr.Siddesh Kumar N M</h1>
+              <h4>Convener</h4>
             </div>
-
-            <div class="teams">
-                <img src="images/ecell.png" alt="">
-                <div class="name">Sanjay Mullen </div>
-                <div class="desig">Student Co-Ordinator</div>
-                <div class="about"> manugowda@gmail.com </div>
-
-                <div class="social-links">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
+          </div>
+          <div
+            style="
+              background-position: center;
+              background-image: url('image/mentor\ -\ Copy.jpeg');
+            "
+            class="team-div"
+          >
+            <div class="desc">
+              <h1>Mr.Ramesh Kurbet</h1>
+              <h4>Mentor</h4>
             </div>
-
-            <div class="teams">
-                <img src="images/ecell.png" alt="">
-                <div class="name">Sanjay Mullen </div>
-                <div class="desig">Student Co-Ordinator</div>
-                <div class="about"> manugowda@gmail.com </div>
-
-                <div class="social-links">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
+          </div>
+          <div
+            style="
+              background-position: center;
+              background-image: url('image/manu.jpeg');
+            "
+            class="team-div"
+          >
+            <div class="desc">
+              <h1>
+                Manojgowda K S
+              </h1>
+              <h4>Student Co-Ordinator</h4>
             </div>
-
-            <div class="teams">
-                <img src="images/ecell.png" alt="">
-                <div class="name">Sanjay Mullen </div>
-                <div class="desig">Student Co-Ordinator</div>
-                <div class="about"> manugowda@gmail.com </div>
-
-                <div class="social-links">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
+          </div>
+          <div
+            style="
+              background-position: center;
+              background-image: url('image/rakshitha.jpeg');
+            "
+            class="team-div"
+          >
+            <div class="desc">
+              <h1>Rakshitha M N</h1>
+              <h4>Student Co-Ordinator</h4>
             </div>
-
-            <div class="teams">
-                <img src="images/ecell.png" alt="">
-                <div class="name">Sanjay Mullen </div>
-                <div class="desig">Student Co-Ordinator</div>
-                <div class="about"> manugowda@gmail.com </div>
-
-                <div class="social-links">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
+          </div>
+          <div
+            style="
+              background-position: center;
+              background-image: url('image/chandan.png');
+            "
+            class="team-div"
+          >
+            <div class="desc">
+              <h1>Chandan M</h1>
+              <h4>Student Co-Ordinator</h4>
             </div>
-
-            <div class="teams">
-                <img src="images/ecell.png" alt="">
-                <div class="name">Sanjay Mullen </div>
-                <div class="desig">Student Co-Ordinator</div>
-                <div class="about"> manugowda@gmail.com </div>
-
-                <div class="social-links">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
+          </div>
+          <div
+            style="
+              background-position: center;
+              background-image: url('image/merylfreeda.jpeg');
+            "
+            class="team-div"
+          >
+            <div class="desc">
+              <h1>Meryl Freeda Dcruz</h1>
+              <h4>Student Co-Ordinator</h4>
             </div>
-
-            <div class="teams">
-                <img src="images/ecell.png" alt="">
-                <div class="name">Sanjay Mullen </div>
-                <div class="desig">Student Co-Ordinator</div>
-                <div class="about"> manugowda@gmail.com </div>
-
-                <div class="social-links">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
+          </div>
+          <div
+            style="
+              background-position: center;
+              background-image: url('image/hema.JPG');
+            "
+            class="team-div"
+          >
+            <div class="desc">
+              <h1>Hemashree SS</h1>
+              <h4>Student Co-Ordinator</h4>
             </div>
-
-            <div class="teams">
-                <img src="images/ecell.png" alt="">
-                <div class="name">Sanjay Mullen </div>
-                <div class="desig">Student Co-Ordinator</div>
-                <div class="about"> manugowda@gmail.com </div>
-
-                <div class="social-links">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
+          </div>
+          <div
+            style="
+              background-position: center;
+              background-image: url('image/ANVIKA.jpeg');
+            "
+            class="team-div"
+          >
+            <div class="desc">
+              <h1>Anvika</h1>
+              <h4>Student Co-Ordinator</h4>
             </div>
-
-            <div class="teams">
-                <img src="images/ecell.png" alt="">
-                <div class="name">Sanjay Mullen </div>
-                <div class="desig">Student Co-Ordinator</div>
-                <div class="about"> manugowda@gmail.com </div>
-
-                <div class="social-links">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
+          </div>
+          <div
+            style="
+              background-position: center;
+              background-image: url('image/suraj.jpeg');
+            "
+            class="team-div"
+          >
+            <div class="desc">
+              <h1>Suraj R</h1>
+              <h4>Student Co-Ordinator</h4>
             </div>
-
-            <div class="teams">
-                <img src="images/ecell.png" alt="">
-                <div class="name">Sanjay Mullen </div>
-                <div class="desig">Student Co-Ordinator</div>
-                <div class="about"> manugowda@gmail.com </div>
-
-                <div class="social-links">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
+          </div>
+          <div></div>
+          <!-- <div class="vol-div">
+                  <div class="vol-box tooltip">
+                      <span class="tooltiptext">Iresh</span>
+                  </div>
+                  <div class="vol-box tooltip">
+                      <span class="tooltiptext">Iresh</span>
+                  </div>
+                  <div class="vol-box tooltip">
+                      <span class="tooltiptext">Iresh</span>
+                  </div>
+                  <div class="vol-box tooltip">
+                      <span class="tooltiptext">Iresh</span>
+                  </div>
+                  <div class="vol-box tooltip">
+                      <span class="tooltiptext">Iresh</span>
+                  </div>
+                  <div class="vol-box tooltip">
+                      <span class="tooltiptext">Iresh</span>
+                  </div>
+                  <div class="vol-box tooltip">
+                      <span class="tooltiptext">Iresh</span>
+                  </div>
+                  <div class="vol-box tooltip">
+                      <span class="tooltiptext">Iresh</span>
+                  </div>
+                  <div class="vol-box tooltip">
+                      <span class="tooltiptext">Iresh</span>
+                  </div>
+                  <div class="vol-box tooltip">
+                      <span class="tooltiptext">Iresh</span>
+                  </div>
+                  <div class="vol-box tooltip">
+                      <span class="tooltiptext">Iresh</span>
+                  </div>
+                  <div class="vol-box tooltip">
+                      <span class="tooltiptext">Iresh</span>
+                  </div>
+                  <div class="vol-box tooltip">
+                      <span class="tooltiptext">Iresh</span>
+                  </div>
+                  <div class="vol-box tooltip">
+                      <span class="tooltiptext">Iresh</span>
+                  </div>
+                  <div class="vol-box tooltip">
+                      <span class="tooltiptext">Iresh</span>
+                  </div>
+              </div> -->
+        </section>
+        <script type="text/javascript" src="./ok.js"></script>
 </body>
-
+<footer>
+  <!--bottom text-->
+  <a href="https://www.instagram.com/_.manojgowda._/" class="link-hide">
+      <div class="bottom-text">Created By Manojgowda
+          <i class="fa-brands fa-battle-net"></i>
+          E-Cell,PESCE Mandya
+      </div>
+  </a>
+</footer>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
