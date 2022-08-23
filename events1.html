@@ -12,6 +12,10 @@
 
 </head>
 <body>
+    <div class="loader1">
+    <div class="ring1"></div>&nbsp;&nbsp;&nbsp;&nbsp;
+    <h4>Please Wait....</h4>
+  </div>
     <section style="margin-top:0; text-align: center" id="activities">
       <img src="image/logo.png" height="160px" width="160px">
       <div class="head-norm">
@@ -291,6 +295,17 @@
       </div>
     
         <script type="text/javascript" src="./ok.js"></script>
+       <script>
+          const loader1 = document.querySelector(".loader1");
+          window.onload = function(){
+          setTimeout(function(){
+          loader1.style.opacity = "0";
+          setTimeout(function(){
+          loader1.style.display = "none";
+         }, 500);
+         },1500);
+         }
+        </script>
 </body>
 <footer>
   <!--bottom text-->
